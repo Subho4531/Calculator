@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Barriecito&family=Fascinate+Inline&family=Lexend+Peta:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: Lexend Peta;
+}
+
+body {
+    background-color:#0f0f27;
+    color: white;
+    font-family: Lexend Peta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+h1{
+    padding-top: 25px;
+    padding-bottom: 40px;
+    text-shadow: 0px 5px 12px beige; 
+}
+
+.button,.back-button{
+    padding : 18px;
+    border:none;
+    border-radius: 100%;
+    cursor:pointer;
+    font-size: 22px;
+    background-color: rgba(101, 90, 255, 0.667);
+    color:white;
+    transition: transform 0.5s ease;
+    box-shadow: 0px 3px 12px 3px beige;
+}
+
+button:hover{
+    background-color: #6c6cff;
+    scale: 1.2;
+}
+
+
+.calculator{
+    background-color: rgb(68, 60, 183);
+    padding: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px rgba(107, 124, 253, 0.548);
+}
+
+
+.buttons {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;   
+    
+}
+
+.input {
+    padding:  1.5rem  ;
+    border: #3a3abb;
+    border-width: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 17rem;
+    
+    
+}
+.equal{
+    background-color: rgb(132, 255, 0);
+
+}
+
+.back-button{
+    background-color: red;
+}
